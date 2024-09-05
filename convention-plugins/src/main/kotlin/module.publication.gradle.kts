@@ -20,7 +20,7 @@ publishing {
         pom {
             name.set("Kotlin Multiplatform library template")
             description.set("Dummy library to test deployment to Maven Central")
-            url.set("https://github.com/Kotlin/multiplatform-library-template")
+            url.set("https://github.com/akashmeruva9/cmp-mifos-passcode")
 
             licenses {
                 license {
@@ -33,11 +33,11 @@ publishing {
                     id.set("Mifos")
                     name.set("Mifos Passcode")
                     organization.set("Mifos")
-                    organizationUrl.set("https://www.jetbrains.com")
+                    organizationUrl.set("https://mifos.org/")
                 }
             }
             scm {
-                url.set("https://github.com/Kotlin/multiplatform-library-template")
+                url.set("https://github.com/akashmeruva9/cmp-mifos-passcode")
             }
         }
     }
