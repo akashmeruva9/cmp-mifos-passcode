@@ -30,9 +30,9 @@ publishing {
             }
             developers {
                 developer {
-                    id.set("JetBrains")
-                    name.set("JetBrains Team")
-                    organization.set("JetBrains")
+                    id.set("Mifos")
+                    name.set("Mifos Passcode")
+                    organization.set("Mifos")
                     organizationUrl.set("https://www.jetbrains.com")
                 }
             }

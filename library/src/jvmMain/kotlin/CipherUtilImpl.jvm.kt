@@ -1,0 +1,3 @@
+actual class CommonKeyPair
+actual interface CommonPublicKey
+actual class Crypto
