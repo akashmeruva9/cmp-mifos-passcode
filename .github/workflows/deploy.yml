@@ -54,6 +54,6 @@ jobs:
           closeSonatypeStagingRepository
           -Psigning.gnupg.passphrase='${{secrets.OSSRH_GPG_SECRET_KEY_PASSWORD}}'
           -Psigning.gnupg.keyName='${{secrets.OSSRH_GPG_SECRET_KEY_ID}}'
-          -PsonatypeUsername='${{secrets.OSSRH_USERNAME}}'
-          -PsonatypePassword='${{secrets.OSSRH_PASSWORD}}'
+          -PsonatypeUsername=KxJaYgpR
+          -PsonatypePassword=Gl6MAI8vzhCYsb2P01+Y6LvoTEiPX+aIDgX7PaTzJQEE
 
