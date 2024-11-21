@@ -16,11 +16,11 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import are_you_sure_you_want_to_exit
-import cancel
 import com.mifos.shared.utility.Step
-import exit
-import io.github.akashmeruva9.cmp_mifos_passcode.Res
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.Res
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.are_you_sure_you_want_to_exit
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.cancel
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.exit
 import org.jetbrains.compose.resources.stringResource
 
 @Composable

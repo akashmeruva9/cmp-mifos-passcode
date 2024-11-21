@@ -2,9 +2,9 @@ package com.mifos.shared.utility
 
 
 import com.russhwolf.settings.Settings
-import has_passcode
-import io.github.akashmeruva9.cmp_mifos_passcode.Res
-import passcode
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.Res
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.has_passcode
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.passcode
 
 /**
  * @author pratyush

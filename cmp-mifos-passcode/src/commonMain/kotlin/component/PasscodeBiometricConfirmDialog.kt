@@ -24,12 +24,12 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import com.mifos.shared.getPlatform
 import com.mifos.shared.theme.blueTint
-import enable_biometric_dialog_description
-import enable_biometric_dialog_title
-import io.github.akashmeruva9.cmp_mifos_passcode.Res
-import no
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.Res
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.enable_biometric_dialog_description
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.enable_biometric_dialog_title
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.no
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.yes
 import org.jetbrains.compose.resources.stringResource
-import yes
 
 @Composable
 fun PasscodeBiometricConfirmDialog(

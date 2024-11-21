@@ -6,10 +6,10 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
-import io.github.akashmeruva9.cmp_mifos_passcode.Res
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.Res
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.passcode_do_not_match
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.try_again
 import org.jetbrains.compose.resources.stringResource
-import passcode_do_not_match
-import try_again
 
 @Composable
 fun PasscodeMismatchedDialog(

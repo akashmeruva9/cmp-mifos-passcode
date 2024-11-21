@@ -1,6 +1,6 @@
 package com.mifos.shared.component
 
-import androidx.compose.animation.core.MutableTransitionState
+import  androidx.compose.animation.core.MutableTransitionState
 import androidx.compose.animation.core.Transition
 import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.animateOffset
@@ -21,10 +21,10 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.mifos.shared.utility.Step
-import confirm_passcode
-import create_passcode
-import enter_your_passcode
-import io.github.akashmeruva9.cmp_mifos_passcode.Res
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.Res
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.confirm_passcode
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.create_passcode
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.enter_your_passcode
 import org.jetbrains.compose.resources.stringResource
 
 @Composable

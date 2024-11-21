@@ -33,7 +33,13 @@ kotlin {
     }
     
     sourceSets {
+
+        val commonMain by getting {
+            resources.srcDir("src/commonMain/composeResources")
+        }
+
         commonMain.dependencies {
+            implementation(compose.components.resources)
             implementation(libs.androidx.lifecycle.viewmodel.ktx)
             implementation(compose.ui)
             implementation(compose.runtime)
@@ -43,6 +49,7 @@ kotlin {
             implementation(libs.navigation.compose)
             implementation(libs.multiplatform.settings.no.arg)
         }
+
         commonTest.dependencies {
             implementation(libs.kotlin.test)
         }
@@ -58,12 +65,11 @@ android {
     defaultConfig {
         minSdk = libs.versions.android.minSdk.get().toInt()
     }
-}
-
-compose.resources {
-    publicResClass = true
-    packageOfResClass = "io.github.akashmeruva9.cmp_mifos_passcode"
-    generateResClass = always
+    packaging {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
+    }
 }
 
 mavenPublishing {
@@ -71,13 +77,13 @@ mavenPublishing {
 
     signAllPublications()
 
-    coordinates(group.toString(), "library", version.toString())
+    coordinates(group.toString(), "cmp-mifos-passcode", version.toString())
 
     pom {
         name = "CMP Mifos Passcode Library"
         description = "A library."
         inceptionYear = "2024"
-        url = "https://github.com/kotlin/multiplatform-library-template/"
+        url = "https://github.com/akashmeruva9/cmp-mifos-passcode"
         licenses {
             license {
                 name = "XXX"

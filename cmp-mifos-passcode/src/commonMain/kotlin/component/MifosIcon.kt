@@ -7,8 +7,9 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import io.github.akashmeruva9.cmp_mifos_passcode.Res
-import mifos_logo
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.Res
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.mifos_logo
+import org.jetbrains.compose.resources.Resource
 import org.jetbrains.compose.resources.painterResource
 
 @Composable

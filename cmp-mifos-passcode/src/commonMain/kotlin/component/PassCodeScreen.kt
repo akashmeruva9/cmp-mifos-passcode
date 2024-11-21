@@ -37,7 +37,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import biometric_registration_success
 import com.mifos.shared.utility.BioMetricUtil
 import com.mifos.shared.utility.PreferenceManager
 import com.mifos.shared.theme.blueTint
@@ -46,10 +45,11 @@ import com.mifos.shared.utility.ShakeAnimation.performShakeAnimation
 import com.mifos.shared.viewmodels.BiometricAuthorizationViewModel
 import com.mifos.shared.viewmodels.BiometricEffect
 import com.mifos.shared.viewmodels.PasscodeViewModel
-import io.github.akashmeruva9.cmp_mifos_passcode.Res
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.Res
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.biometric_registration_success
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.ok
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
-import ok
 import org.jetbrains.compose.resources.getString
 
 /**

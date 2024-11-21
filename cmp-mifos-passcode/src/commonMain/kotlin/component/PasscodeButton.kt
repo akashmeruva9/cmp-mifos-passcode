@@ -13,12 +13,12 @@ import com.mifos.shared.getPlatform
 import com.mifos.shared.theme.forgotButtonStyle
 import com.mifos.shared.theme.skipButtonStyle
 import com.mifos.shared.theme.useTouchIdButtonStyle
-import forgot_passcode_login_manually
-import io.github.akashmeruva9.cmp_mifos_passcode.Res
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.Res
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.forgot_passcode_login_manually
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.skip
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.use_faceId
+import io.github.akashmeruva9.cmp_mifos_passcode.generated.resources.use_touchId
 import org.jetbrains.compose.resources.stringResource
-import skip
-import use_faceId
-import use_touchId
 
 @Composable
 fun PasscodeSkipButton(
